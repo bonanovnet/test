@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="UTF-8">
+      <title>Barbershop</title>
+      <link href="style.css" rel="stylesheet">
+      <link href="css/outline.css" rel="stylesheet">
+    </head>
+    
+<body>
+    <header class="main-header">
+        <nav class="main-navigation">
+          <a class="main-header-logo">
+           <img src="svg/index-logo.svg" alt="Логотип" width="368" height="153">
+            </a>
+            <div class="main-navigation-wrapper">
+            <div class="container">
+            <ul class="site-navigation">
+               <li><a href="intro.html">Инфо</a></li>
+               <li><a href="news.html">Новости</a></li>
+               <li><a href="price.html">Цены</a></li>
+               <li><a href="catalog.html">Магазин</a></li>
+               <li><a href="contact.html">Контакты</a></li>      
+            </ul>
+            <ul class="user-navigation">
+                <li class="login-link">
+                <a class="login-link" href="login.html">Вход</a>
+                </li>
+            </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="container">
+        <h1 class="visually-hidden">Барбершоп-Бородинский</h1>
+        
+        <section class="features">
+            <h2 class="visually-hidden">Преимущества</h2>
+            <ul class="features-list">
+               <li class="features-item">
+                   <h3>Быстро</h3>
+                   <p>Мы делаем свою работу быстро и качественно.</p>
+               </li>
+               
+               <li class="features-item">
+                   <h3>Круто</h3>
+                   <p>Мы сделаем из вас звезду футбола.</p>
+               </li>
+               
+               <li class="features-item">
+                   <h3>Дорого</h3>
+                   <p>Наши мастера- профессионалы своего дела.</p>
+               </li>
+               
+            </ul>
+        </section>
+        <div class="index-column">
+        <section class="news">
+           <h2>Новости</h2>
+           <ul class="news-list">
+               <li class="news-item">
+                   <p>Нам завезли пивасик! Теперь вы можете пропустить стаканчик.
+                    </p>
+                    <time datetime="2019-12-05">5 декабря</time>
+               </li>
+               
+               <li class="news-item">
+                   <p>Продолжаем развиваться. 
+                    </p>
+                    <time datetime="2019-12-06">6 декабря</time>
+               </li>
+               
+           </ul>
+           
+           <a class="button" href="news.html">Все новости</a>
+            
+        </section>
+       
+        
+        <section class="gallery">
+           <h2>Фотогаллерея</h2>
+        <figure class="gallery-content">
+            <a href="#"><img src="img/iNJ5UY1XyxE.jpg" width="286" height="164" alt="Интерьер"></a> 
+        </figure>
+       
+         <a class="button" href="#">
+        <button class="gallery-button gallery-button-back">Назад</button>
+         <button class="gallery-button gallery-button-next">Вперед</button>
+            </a>
+        </section>
+        </div>
+        
+        <div class="index-column">
+        <section class="contacts">
+            <h2>Контактная инфорация</h2>
+            <p>
+                Барбершоп "Бородинский"<br>
+                Адрес: г.Москва ул.Тверская д.2<br>
+                Телефон: 8-926-46-45-63
+              
+            </p>
+            <p>
+                Время работы: пн-пт 10-19<br>
+                              сб-вс 10-22        
+            </p>
+            
+            <a class="button" href="map.html">Как добраться</a>
+            <a class="button" href="contact.html">Связаться с нами</a>
+        </section>
+        
+        <section class="appointment">
+            <h2>Записаться</h2>
+            <p class="appointment-info">Укажите желаемую дату и время</p>
+            <form class="appointment-form" action="https://vkontake.ru" method="post">
+               <p class="appointment-item">
+               <label for="appointment-date">Дата</label>
+               <input id="appointment-date" type="text" name="date" value="" placeholder="08.10.2019">
+                </p>
+                <p class="appointment-item">
+                <label for="appointment-time">Время</label>
+                <input id="appointment-time" type="text" name="time" value="" placeholder="10:00">
+                </p>
+                <p class="appointment-item">
+                <label for="appointment-name">Ваше имя</label>
+                <input id="appointment-name" type="text" name="name" value="" placeholder="Борода">
+                </p>
+                <p class="appointment-item">
+                <label for="appointment-phone">Телефон</label>
+                <input id="appointment-phone" type="tel" name="name" value="" placeholder="+7 927 266 52 90">
+                </p>
+                <button class="button" type="submit">отправить</button>
+            </form>
+            </section>
+        </div>
+           
+        </section>
+            </main>
+            
+    
+    <footer class="main-footer">
+        <p class="footer-contacts">
+            Барбершоп "Бородинский"<br>
+            Адрес: г.Москва ул.Тверская д.2<br>
+            <a href="map.html">Как нас найти</a><br>
+            Телефон: 8-926-46-45-63
+        </p>
+        
+        <div class="footer-social">
+           <b>Давай дружить!</b>
+           <ul>
+               <li><a class="social-button" href="#">Вконтакте</a></li>
+               <li><a class="social-button" href="#">Фэйсбук</a></li>
+               <li><a class="social-button" href="#">Инстаграм</a></li>
+           </ul>
+           
+           <p class="footer-copyright">
+               <b>Разработано:</b>
+               <a class="button" href="https://yandex.ru">Yandex</a>
+           </p>
+            
+        </div>
+    </footer>
+    
+    <section  class="modal modal-login">
+       <h2>Личный кабинет</h2>
+        <p>Введите свой логин и пароль</p>
+        <form class="login-form" action="https://yandex.ru" method="post">
+            <p>
+            <label class="visually-hidden" for="user-login">Логин</label>
+            <input class="login-icon-user" type="text" name="login" placeholder="Логин">
+            </p> 
+             <p>
+             <label class="visually-hidden" for="user-password">Пароль</label>
+            <input class="login-icon-password" type="password" name="password" placeholder="Пароль">
+            </p>   
+            <p class="login-password-info">
+             <label class="login-checkbox">
+            <input type="checkbox" name="remember" class="visually-hidden">
+            <span class="checkbox-indicator"></span>
+               Запомните меня
+                </label>
+            <a class="restore" href="#">Я забыл пароль</a>
+            </p>
+            <button class="button" type="submit">Войти</button>      
+        </form>
+         <button class="modal-close" type="submit">Закрыть</button>
+    </section>
+    
+     <section  class="modal modal-map">
+       <h2 class="vissualy-hidden">Как до нас добраться</h2>
+       <p>
+       <img src="img/kunc1b.jpg" width="320" height="" alt="Местоположение">
+         </p>
+         <button class="modal-close" type="button">Закрыть</button>
+    </section>
+    
+    
+</body>
+    
+</html>
